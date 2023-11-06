@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/identidad');
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	position: fixed;
+	top: 18px;
+	left: 67px;
+
+	background-color: white;
+	box-shadow: 0px 5px 10px #EDEDED;
+	border-radius: 5px;
+	border: solid 1.5px #F2F2F2; 
+	z-index: 1;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	font-family: 'Identidad', sans-serif;
+	font-size: 15px;
+	color: #A6A6A6;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: none;
+}
+
+button{
+	margin: 5px;
+	border-radius: 3px;
+	border: none;
+	background-color: #FFFFFF;
+}
+
+button:hover {
+	background-color: #DBDBDB;
+}
+
+li a:hover {
+	color: black;
+}
+

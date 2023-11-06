@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/mochain');
+@import url('https://fonts.cdnfonts.com/css/identidad');
+
+.box1 {
+
+	display: flex;
+	flex-wrap: wrap;
+	width: 76%;
+	
+	position: relative;
+	top: 150px;
+	margin: auto;
+	
+	text-align: left;
+}
+
+.box1 > div {
+	width: 100%;
+}
+
+#title {
+	font-size: 47px;
+	position: relative;
+	top: 80px;
+}
+
+
+#details {
+	font-style: italic;
+	font-size: 17px;
+	letter-spacing: 0.8px;
+	position: relative;
+	top: 115px;
+}
+
+#writing {
+	text-align: justify;
+	font-size: 18px;
+	position: relative;
+	top: 170px;
+	width: 67.5%;
+}

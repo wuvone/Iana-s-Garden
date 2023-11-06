@@ -1,0 +1,105 @@
+#box1 {
+	height: 30px;
+}
+/*individual containers - general*/
+.container {
+	font-family: 'Identidad', sans-serif;
+	color: gray;
+	background-color: #FBFBFB;
+	font-size: 13.5px;
+	transition: 0.3s;
+	border-radius: 8px;
+	width: 24.65%;
+	height: 100%;
+}
+
+.container:hover {
+	background-color: #F5F5F5;
+	-webkit-transform: scale(1.005);
+	z-index: 1;
+}
+
+/*containers - books*/
+.bookscontent {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px 15px;
+	height: 60%;
+	height: 60%;
+}
+
+.bookscontent > div {
+	width: 49.25%;
+	height: 100%;
+}
+
+.bookscover {
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px;
+	transition: width 0.15s, height 0.15s, transform 0.15s;
+}
+
+.bookscover:hover {
+	transform: rotate(-2deg) scale(1.1);
+}
+
+.booksleft {
+	position: relative;
+	left: 5px;
+}
+
+.tag {
+	font-family: ui-monospace, SFMono-Regular, Menlo,Monaco, Consolas, Liberation Mono, Courier New, monospace;
+	padding: 2px;
+	border-radius: 2px;
+	
+	position: relative;
+	top: 50px;
+}
+
+.booktitle {
+	color: black;
+	font-size: 20px;
+}
+
+.author , .booktitle {
+	position: relative;
+	top: 80px;
+}
+
+.tagscontainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#book {
+	width: 33px;
+	color: #79350F;
+	background-color: #F8DFAB;
+	box-shadow: 0px 2px #DFC899;
+	border: solid 0.5px #C9B48B;
+}
+
+#movie {
+	width: 40px;
+	color: #891337;
+	background-color: #FDC4CC;
+	box-shadow: 0px 2px #E3B0B7;
+	border: solid 0.5px #CC9EA4;
+}
+
+#movie {
+	width: 40px;
+	color: #891337;
+	background-color: #FDC4CC;
+	box-shadow: 0px 2px #E3B0B7;
+	border: solid 0.5px #CC9EA4;
+}
+
+#show {
+	width: 35px;
+	color: #0b5394;
+	background-color: #cfe2f3;
+	box-shadow: 0px 2px #9fc5e8;
+	border: solid 0.5px #9f9ecc;
+}

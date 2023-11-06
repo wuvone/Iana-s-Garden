@@ -1,0 +1,268 @@
+@import url('https://fonts.cdnfonts.com/css/mochain');
+@import url('https://fonts.cdnfonts.com/css/identidad');
+
+/*text*/
+.maintext {
+	font-family: 'Mochain', sans-serif;
+	color: #A6A6A6;
+	font-size: 2.25rem;
+	text-align: left;
+	line-height: 50px;
+	border: none;
+	
+	position: relative;
+}
+
+a.diggard {
+	color: #A6A6A6;
+	text-decoration: underline dotted;
+	cursor: alias;
+}
+
+a.diggard:hover {
+	color: black;
+	text-decoration: underline dotted;
+	transition: 0.3s;
+}
+
+.keywords {
+	color: black;
+}
+
+.things:hover {
+	text-decoration: underline solid #744700;
+}
+
+.websites:hover {
+	text-decoration: underline solid #999999;
+}
+
+.stem:hover {
+	text-decoration: underline wavy #FFE599;
+}
+
+.coding:hover {
+	text-decoration: underline solid #B4A7D6;
+}
+
+.media:hover {
+	text-decoration: underline solid #E06666;
+}
+
+.family:hover {
+	text-decoration: underline solid #B6D7A8;
+}
+
+.writing:hover {
+	text-decoration: underline solid #9FC5E8;
+}
+
+.rcontainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*tooltip*/
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	opacity: 0;
+	transition: opacity 0.3s;
+	background-color: black;
+	color: #FFFFFF;
+	width: 150px;
+	border-radius: 8px;
+	padding: 5px 0;
+	
+	font-family: 'Identidad', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	
+	/* Position the tooltip */
+	z-index: 1;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -75px;
+}
+
+.tooltip:hover .tooltiptext {
+	opacity: 1;
+}
+
+
+/*containers*/
+.box1 {
+	display: flex;
+	flex-wrap: wrap;
+
+	position: relative;
+	top: 95px;
+	left: 60px;
+	max-width: 92.5%;
+}
+
+.box1 > div {
+	width: 49.77%;
+}
+
+/*containers - general*/
+.rcontainer > div {
+	background-color: #FBFBFB;
+	border-radius: 8px;
+
+	width: 100%;
+}
+
+.container {
+	font-family: 'Identidad', sans-serif;
+	color: gray;
+	font-size: 13.5px;
+	transition: 0.3s;
+}
+
+.container:hover {
+	background-color: #F5F5F5;
+	-webkit-transform: scale(1.005);
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.arrow {
+	font-size: 23px;
+	text-align: right;
+	transition: 0.3s;
+}
+
+.arrow:hover {
+	text-decoration: none;
+	color: #6FA8DC;
+}
+
+.containertext {
+	margin: 15px;
+}
+
+/*containers - writing*/
+.writingtitle {
+	font-family: 'Mochain', sans-serif;
+	color: black;
+	font-size: 50px;
+}
+
+.writingtext {
+	margin : 15px;
+	color: #171717;
+	font-size: 15px;
+}
+
+p {
+overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+	white-space: pre-wrap; /* let the text wrap preserving spaces */
+}
+
+
+/*containers - books*/
+.bookscontent {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px 15px;
+	height: 70%;
+	
+}
+
+.bookscontent > div {
+	width: 49.25%;
+}
+
+.bookscover {
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px;
+	transition: width 0.15s, height 0.15s, transform 0.15s;
+}
+
+.bookscover:hover {
+	transform: rotate(-2deg) scale(1.1);
+}
+
+.booksleft {
+	position: relative;
+	left: 5px;
+}
+
+.tag {
+	font-family: ui-monospace, SFMono-Regular, Menlo,Monaco, Consolas, Liberation Mono, Courier New, monospace;
+	padding: 2px;
+	border-radius: 2px;
+	
+	position: relative;
+	top: 50px;
+}
+
+.booktitle {
+	color: black;
+}
+
+.author , .booktitle {
+	font-size: 20px;
+	position: relative;
+	top: 80px;
+}
+
+.tagscontainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#book {
+	width: 33px;
+	color: #79350F;
+	background-color: #F8DFAB;
+	box-shadow: 0px 2px #DFC899;
+	border: solid 0.5px #C9B48B;
+}
+
+#movie {
+	width: 40px;
+	color: #891337;
+	background-color: #FDC4CC;
+	box-shadow: 0px 2px #E3B0B7;
+	border: solid 0.5px #CC9EA4;
+}
+
+/*containers - family*/
+.containerfam {
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.fampic {
+	z-index: 1;
+	border-radius: 8px;
+}
+
+.fampic > a > img {
+	border-radius: 8px;
+	transtion: 0.15s;
+	filter: brightness(85%);
+	transition: 0.3s;}
+
+.fampic > a > img:hover {
+	filter: brightness(100%);
+}
+
+
